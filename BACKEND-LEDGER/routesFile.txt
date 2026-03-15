@@ -1,0 +1,18 @@
+register http://localhost:3000/api/auth/register
+login    http://localhost:3000/api/auth/login
+logout   http://localhost:3000/api/auth/logout
+
+get transaction http://localhost:3000/api/transaction
+do transaction  http://localhost:3000/api/transaction
+create Account  http://localhost:3000/api/account/create
+
+
+{
+    "email": "daniyalahad084@gmail.com",
+    "password": "test123",
+    "name":"Daniyal"
+}
+
+
+
+

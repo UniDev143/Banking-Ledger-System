@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+  background: var(--cream-50);
+}
+
+.app > * {
+  background: var(--card-bg);
+  border: 1px solid var(--border-gray);
+  border-radius: 20px;
+  padding: 2.5rem 3rem;
+  box-shadow: var(--shadow-soft);
+  max-width: 720px;
+  width: 100%;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

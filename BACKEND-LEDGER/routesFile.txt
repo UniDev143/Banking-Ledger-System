@@ -7,12 +7,6 @@ do transaction  http://localhost:3000/api/transaction
 create Account  http://localhost:3000/api/account/create
 
 
-{
-    "email": "daniyalahad084@gmail.com",
-    "password": "test123",
-    "name":"Daniyal"
-}
-
 
 
 
